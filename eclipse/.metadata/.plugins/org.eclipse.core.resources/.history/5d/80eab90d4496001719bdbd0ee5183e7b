@@ -1,0 +1,8 @@
+package net.gta5voice.voice;
+
+public class VoiceEvents {
+	@SubscribeEvent
+	public static void arrowNocked(ArrowNockEvent event) {
+        System.out.println("Arrow nocked!");
+    }
+}

@@ -1,0 +1,6 @@
+package net.gta5voice.voice;
+
+public class VoiceEvents {
+	@SubscribeEvent
+	
+}
