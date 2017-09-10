@@ -110,21 +110,9 @@ public class VoiceHandler {
 				}
 			}
 			
-			this.makeWebRequest("http://localhost:15555/players/" + localPlayerName + "/" + String.join(";", playerNames) + "/");
+			VoiceMod.Url = "http://localhost:15555/players/" + localPlayerName + "/" + String.join(";", playerNames) + "/";
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-	}
-	
-	private void makeWebRequest(String url) {
-		System.out.println(url);
-		URL connUrl;
-		try {
-			connUrl = new URL(url);
-	 		HttpURLConnection con = (HttpURLConnection) connUrl.openConnection();
-	 		con.setRequestMethod("GET");
-	 		con.getResponseCode();
-		} catch (Exception e) {
 		}
 	}
 }

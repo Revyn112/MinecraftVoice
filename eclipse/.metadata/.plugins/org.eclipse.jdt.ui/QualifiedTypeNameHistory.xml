@@ -31,4 +31,8 @@
 <fullyQualifiedTypeName name="java.io.StringWriter"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.eventhandler.SubscribeEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.network.FMLNetworkEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.gameevent.PlayerEvent"/>
 </qualifiedTypeNameHistroy>

@@ -2,6 +2,8 @@ package net.gta5voice.voice;
 
 import java.io.IOException;
 import java.io.StringWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -20,11 +22,13 @@ import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import cpw.mods.fml.relauncher.Side;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.server.MinecraftServer;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = VoiceMod.MOD_ID)
 public class VoiceMod {
 	public static final String MOD_ID = "voicemod";
 	public static final SimpleNetworkWrapper INSTANCE = NetworkRegistry.INSTANCE.newSimpleChannel("voicemod");
+	public static String Url = "";
 	
 	@EventHandler
     public void preInit(FMLPreInitializationEvent event){
@@ -72,9 +76,38 @@ public class VoiceMod {
     	}
     	else
     	{
+    		VoiceEvents handler = new VoiceEvents();
+    		MinecraftForge.EVENT_BUS.register(handler);
+    		FMLCommonHandler.instance().bus().register(handler);
     		INSTANCE.registerMessage(MyMessageHandler.class, MyMessage.class, 0, Side.CLIENT);
+    		
+    		TimerTask action = new TimerTask() {
+			     public void run() {
+			    	if (VoiceMod.Url != "")
+			    	{
+			    		makeWebRequest(VoiceMod.Url);
+			    	}
+			     }
+			 };
+			 
+			 Timer caretaker = new Timer();
+			 caretaker.schedule(action, 1000, 500);
     	}
     }
+    
+	public void makeWebRequest(String url) {
+		//System.out.println(url);
+		URL connUrl;
+		try {
+			connUrl = new URL(url);
+	 		HttpURLConnection con = (HttpURLConnection) connUrl.openConnection();
+	 		con.setRequestMethod("GET");
+	 		con.getContent();
+	 		con.disconnect();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
     
     @EventHandler
     public void postInit(FMLPostInitializationEvent event){
