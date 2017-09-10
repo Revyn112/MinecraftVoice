@@ -1,0 +1,18 @@
+package net.gta5voice.voice;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = VoiceMod.MOD_ID)
+public class VoiceMod {
+	public static final String MOD_ID = "voicemod";
+	
+	@EventHandler
+    public void preInit(FMLPreInitializationEvent event){
+		
+    }
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event){
+    	
+    }
+}

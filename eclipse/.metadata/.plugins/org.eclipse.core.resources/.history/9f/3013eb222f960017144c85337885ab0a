@@ -1,0 +1,6 @@
+package net.gta5voice.voice;
+
+@Mod(modid = VoiceMod.MOD_ID)
+public class VoiceMod {
+	public static final String MOD_ID = "voicemod";
+}

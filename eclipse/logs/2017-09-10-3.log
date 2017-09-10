@@ -1,0 +1,11 @@
+[16:09:29] [main/INFO]: Logging in with username & password
+[16:09:32] [main/INFO]: Setting user: TheHanashi
+[16:09:32] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:09:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[16:09:39] [Sound Library Loader/INFO]: Sound engine started
+[16:09:39] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[16:09:39] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[16:09:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[16:09:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:09:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:09:40] [Sound Library Loader/INFO]: Sound engine started

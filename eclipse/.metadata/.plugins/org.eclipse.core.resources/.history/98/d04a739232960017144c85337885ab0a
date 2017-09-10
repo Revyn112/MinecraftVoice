@@ -1,0 +1,5 @@
+package net.gta5voice.voice;
+
+public class VoiceHandlerThread implements Runnable {
+
+}

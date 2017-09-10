@@ -1,0 +1,10 @@
+package net.gta5voice.voice;
+
+public class MyMessageHandler implements IMessageHandler<MyMessage, IMessage> {
+	@Override public IMessage onMessage(MyMessage message, MessageContext ctx) {
+		String jsonString = message.toSend;
+		new VoiceHandler().handleTeamspeak(jsonString);
+			
+		return null;
+	}
+}
