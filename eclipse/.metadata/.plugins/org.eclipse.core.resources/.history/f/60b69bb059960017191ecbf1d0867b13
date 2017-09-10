@@ -1,0 +1,36 @@
+package net.gta5voice.voice;
+
+import java.lang.reflect.Field;
+import java.util.Map;
+
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.gameevent.InputEvent;
+import cpw.mods.fml.common.gameevent.PlayerEvent;
+import cpw.mods.fml.common.network.FMLNetworkEvent;
+import net.minecraft.client.settings.KeyBinding;
+
+public class VoiceEvents {
+	@SubscribeEvent
+	public void disconnect(FMLNetworkEvent.ClientDisconnectionFromServerEvent event) {
+        VoiceMod.Url = "";
+    }
+	
+	@SubscribeEvent
+	public void onKey(InputEvent.KeyInputEvent e) {
+		try {
+			Field campo = KeyBinding.class.getDeclaredField("KEYBIND_ARRAY");
+			campo.setAccessible(true);
+			
+			Map<String, KeyBinding> binds = (Map<String, KeyBinding>) campo.get(null);
+			for (String bind : binds.keySet()) {
+				if(binds.get(bind).isPressed()){
+					System.out.println(bind + " - " + binds.get(bind).getKeyCode());
+					break;
+				}
+			}
+		} catch (Exception ex) {
+			// TODO Auto-generated catch block
+			ex.printStackTrace();
+		}
+	}
+}

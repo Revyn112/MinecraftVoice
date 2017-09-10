@@ -1,0 +1,45 @@
+package net.gta5voice.voice;
+
+import cpw.mods.fml.common.network.simpleimpl.MessageContext;
+import cpw.mods.fml.relauncher.Side;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.util.EnumChatFormatting;
+
+import java.util.UUID;
+
+import cpw.mods.fml.common.network.simpleimpl.IMessage;
+import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;
+
+public class MyMessageHandler implements IMessageHandler<MyMessage, IMessage> {
+	@Override public IMessage onMessage(MyMessage message, MessageContext ctx) {
+		if (ctx.side == Side.CLIENT) {
+			String jsonString = message.toSend;
+			Runnable r = new VoiceHandlerThread(jsonString);
+			new Thread(r).start();
+		} else {
+			this.changeRange(ctx.getServerHandler().playerEntity);
+		}
+			
+		return null;
+	}
+	
+	private void changeRange(EntityPlayerMP player)
+	{
+		UUID id = player.getPersistentID();
+		if (VoiceMod.playersRange.containsKey(id)) {
+			EnumChat.Formatting color = EnumChatFormatting.GREEN;
+			Double range = VoiceMod.playersRange.get(id);
+			if (range == 5.0) {
+				range = 15.0;
+			} else if (range == 15.0) {
+				range = 50.0;
+			} else {
+				range = 5.0;
+			}
+			String message = EnumChatFormatting.YELLOW + "[Voice]" + EnumChatFormatting.RESET + " Range geändert zu " + EnumChatFormatting.RED + range.toString() + EnumChatFormatting.RESET + " Metern.";
+			player.addChatMessage(new ChatComponentText(message));
+			VoiceMod.playersRange.put(id, range);
+		}
+	}
+}

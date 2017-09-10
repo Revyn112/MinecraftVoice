@@ -1,0 +1,25 @@
+package net.gta5voice.voice;
+
+import java.lang.reflect.Field;
+import java.util.Map;
+
+import org.lwjgl.input.Keyboard;
+
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.gameevent.InputEvent;
+import cpw.mods.fml.common.network.FMLNetworkEvent;
+
+public class VoiceEvents {
+	@SubscribeEvent
+	public void disconnect(FMLNetworkEvent.ClientDisconnectionFromServerEvent event) {
+        VoiceMod.Url = "";
+    }
+	
+	@SubscribeEvent
+	public void onKeyPress(InputEvent.KeyInputEvent e) {
+		if(Keyboard.isKeyDown(Keyboard.KEY_Z))
+		{
+			System.out.println(Keyboard.KEY_Z);
+		}
+	}
+}
