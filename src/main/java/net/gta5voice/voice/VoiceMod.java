@@ -45,44 +45,47 @@ public class VoiceMod {
     	{
     		INSTANCE.registerMessage(MyMessageHandler.class, MyMessage.class, 0, Side.SERVER);
     		
-			TimerTask action = new TimerTask() {
-			     public void run() {
-			    	JSONArray arr = new JSONArray();
-			    	List<EntityPlayerMP> players = MinecraftServer.getServer().getConfigurationManager().playerEntityList;
-			    	for (EntityPlayerMP player : players)
-			    	{
-			    		JSONObject obj = new JSONObject();
-			    		obj.put("name", player.getDisplayName());
-			    		obj.put("x", Math.round(player.posX * 1000) / 1000.0);
-			    		obj.put("y", Math.round(player.posY * 1000) / 1000.0);
-			    		obj.put("z", Math.round(player.posZ * 1000) / 1000.0);
-			    		obj.put("rotation", Math.round(player.rotationYawHead * 1000) / 1000.0);
-			    		obj.put("dimension", player.dimension);
-			    		obj.put("isDead", player.isDead);
-			    		UUID id = player.getPersistentID();
-			    		if (!playersRange.containsKey(id))
-			    		{
-			    			playersRange.put(id, 5.0);
-			    		}
-			    		obj.put("range", playersRange.get(id));
-			    		arr.add(obj);
-			    	}
-			    	StringWriter out = new StringWriter();
-			        try {
-						arr.writeJSONString(out);
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-			        
-			        String jsonText = out.toString();
-			    	INSTANCE.sendToAll(new MyMessage(jsonText));
-			     }
-			 };
-			 
-			 Timer caretaker = new Timer();
-			 caretaker.schedule(action, 1000, 500); // 500 Milliseconds
-			 
+    		Thread thread = new Thread(){
+    		    public void run(){
+    		    	while (true)
+    		    	{
+    		    		try {
+	    		    		JSONArray arr = new JSONArray();
+	    			    	List<EntityPlayerMP> players = MinecraftServer.getServer().getConfigurationManager().playerEntityList;
+	    			    	for (EntityPlayerMP player : players)
+	    			    	{
+	    			    		JSONObject obj = new JSONObject();
+	    			    		obj.put("name", player.getDisplayName());
+	    			    		obj.put("x", Math.round(player.posX * 1000) / 1000.0);
+	    			    		obj.put("y", Math.round(player.posY * 1000) / 1000.0);
+	    			    		obj.put("z", Math.round(player.posZ * 1000) / 1000.0);
+	    			    		obj.put("rotation", Math.round(player.rotationYawHead * 1000) / 1000.0);
+	    			    		obj.put("dimension", player.dimension);
+	    			    		obj.put("isDead", player.isDead);
+	    			    		UUID id = player.getPersistentID();
+	    			    		if (!playersRange.containsKey(id))
+	    			    		{
+	    			    			playersRange.put(id, 5.0);
+	    			    		}
+	    			    		obj.put("range", playersRange.get(id));
+	    			    		arr.add(obj);
+	    			    	}
+	    			    	StringWriter out = new StringWriter();
+	    					arr.writeJSONString(out);
+	    			        
+	    			        String jsonText = out.toString();
+	    			        //System.out.println(jsonText);
+	    			    	INSTANCE.sendToAll(new MyMessage(jsonText));
+							Thread.sleep(500);
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							//e.printStackTrace();
+						}
+    		    	}
+    		    }
+    		  };
+
+    		  thread.start();
     	}
     	else
     	{
@@ -90,18 +93,26 @@ public class VoiceMod {
     		MinecraftForge.EVENT_BUS.register(handler);
     		FMLCommonHandler.instance().bus().register(handler);
     		INSTANCE.registerMessage(MyMessageHandler.class, MyMessage.class, 0, Side.CLIENT);
-    		
-    		TimerTask action = new TimerTask() {
-			     public void run() {
-			    	if (VoiceMod.Url != "")
-			    	{
-			    		makeWebRequest(VoiceMod.Url);
-			    	}
-			     }
-			 };
 			 
-			 Timer caretaker = new Timer();
-			 caretaker.schedule(action, 1000, 500);
+			 Thread thread = new Thread(){
+    		    public void run(){
+    		    	while (true)
+    		    	{
+    		    		try {
+    		    			if (VoiceMod.Url != "")
+    				    	{
+    				    		makeWebRequest(VoiceMod.Url);
+    				    	}
+							Thread.sleep(500);
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							//e.printStackTrace();
+						}
+    		    	}
+    		    }
+    		  };
+
+    		  thread.start();
     	}
     }
     
