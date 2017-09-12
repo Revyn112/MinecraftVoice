@@ -1,110 +1,18 @@
-[21:35:06] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[21:35:11] [Server thread/INFO]: Loading properties
-[21:35:11] [Server thread/INFO]: Default game type: SURVIVAL
-[21:35:11] [Server thread/INFO]: Generating keypair
-[21:35:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:35:11] [main/INFO]: Logging in with username & passwor[21[21:35:13] [main/INFO]: Setting user: TheHanashi
-[21:35:14] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:35:19] [Client thread/INFO]: Reload[21:35:35] [User Authenticator #1/INFO]: UUID of player TheHanashi is d9519f4d-2f63-4d19-9594-35a9dd0472fd
-[21:35:35] [Server thread/INFO]: TheHanashi[/127.0.0.1:52210] logged in with entity id 272 at (-238.69999998807907, 86.0, 330.69999998807907)
-[21:35:35] [Server thread/INFO]: TheHanashi joined the game
-[21:36:12] [Server thread/INFO]: Stopping server
-[21:36:12] [Server thread/INFO]: Saving players
-[21:36:12] [Server thread/INFO]: Saving worlds
-[21:36:12] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[21:36:12] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[21:36:12] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[Sound Library Loader/INFO]: Sound engine started
-[21:35:24] [Client thread/INFO]: Connecting to localhost, 25565
-[21:35:33] [Client thread/INFO]: Connecting to localhost, 25565
-[21:35:38] [Client thread/INFO]: [CHAT] Test
-[21:35:39] [Client thread/INFO]: [CHAT] Test
-[21:36:24] [Client thread/INFO]: Connecting to localhost, 25565
-[21:36:28] [Client thread/INFO]: [CHAT] Voice-Range geändert zu 15.0m
-[21:36:31] [Client thread/INFO]: [CHAT] Voice-Range geändert zu 50.0m
-[21:36:41] [Client thread/INFO]: [CHAT] Voice-Range geändert zu 5.0m
-[21:38:42] [Client thread/INFO]: Connecting to localhost, 25565
-[21:38:45] [Client thread/INFO]: Connecting to localhost, 25565
-[21:38:49] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu 15.0 Metern.
-[21:39:40] [Client thread/INFO]: Connecting to localhost, 25565
-[21:39:43] [Client thread/INFO]: Connecting to localhost, 25565
-[21:39:46] [Client thread/INFO]: Stopping!
-nashi[/127.0.0.1:52286] logged in with entity id 251 at (-243.5, 71.0, 254.5)
-[21:36:26] [Server thread/INFO]: TheHanashi joined the game
-[21:38:32] [Server thread/INFO]: Stopping server
-[21:38:32] [Server thread/INFO]: Saving players
-[21:38:32] [Server thread/INFO]: Saving worlds
-[21:38:32] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[21:38:32] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[21:38:32] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[21:38:38] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[21:38:42] [Server thread/INFO]: Loading properties
-[21:38:42] [Server thread/INFO]: Default game type: SURVIVAL
-[21:38:42] [Server thread/INFO]: Generating keypair
-[21:38:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:38:42] [Server thread/INFO]: Preparing level "world"
-[21:38:43] [Server thread/INFO]: Preparing start region for level 0
-[21:38:43] [Server thread/INFO]: Done (0,681s)! For help, type "help" or "?"
-[21:38:47] [User Authenticator #1/INFO]: UUID of player TheHanashi is d9519f4d-2f63-4d19-9594-35a9dd0472fd
-[21:38:47] [Server thread/INFO]: TheHanashi[/127.0.0.1:52531] logged in with entity id 234 at (-247.68819921839534, 91.0, 267.5030910342545)
-[21:38:47] [Server thread/INFO]: TheHanashi joined the game
-[21:39:15] [Server thread/INFO]: Stopping server
-[21:39:15] [Server thread/INFO]: Saving players
-[21:39:15] [Server thread/INFO]: Saving worlds
-[21:39:15] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[21:39:15] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[21:39:15] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[21:39:18] [main/INFO]: Logging in with username & password
-[21:39:20] [main/INFO]: Setting user: TheHanashi
-[21:39:21] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:39:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
-[21:39:28] [Sound Library Loader/INFO]: Sound engine started
-[21:39:28] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[21:39:28] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[21:39:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
-[21:39:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:39:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:39:29] [Sound Library Loader/INFO]: Sound engine started
-[21:39:29] [Client thread/INFO]: Stopping!
-[21:39:34] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[21:39:38] [Server thread/INFO]: Loading properties
-[21:39:38] [Server thread/INFO]: Default game type: SURVIVAL
-[21:39:38] [Server thread/INFO]: Generating keypair
-[21:39:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:39:38] [Server thread/INFO]: Preparing level "world"
-[21:39:38] [Server thread/INFO]: Preparing start region for level 0
-[21:39:39] [Server thread/INFO]: Done (0,760s)! For help, type "help" or "?"
-[21:39:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@51bc7a74[id=<null>,name=TheHanashi,properties={},legacy=false] (/127.0.0.1:52603) lost connection: Disconnected
-[21:39:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@f65db3b[id=<null>,name=TheHanashi,properties={},legacy=false] (/127.0.0.1:52637) lost connection: Disconnected
-[21:40:02] [User Authenticator #1/INFO]: UUID of player TheHanashi is d9519f4d-2f63-4d19-9594-35a9dd0472fd
-[21:40:02] [Server thread/INFO]: TheHanashi[/127.0.0.1:52674] logged in with entity id 236 at (-247.68819921839534, 91.0, 267.5030910342545)
-[21:40:02] [Server thread/INFO]: TheHanashi joined the game
-[21:41:20] [Server thread/INFO]: Stopping server
-[21:41:20] [Server thread/INFO]: Saving players
-[21:41:20] [Server thread/INFO]: Saving worlds
-[21:41:20] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[21:41:20] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[21:41:20] [Server thread/INFO]: Saving chunks for level 'world'/The End
-craft Forge, FMLFileResourcePack:GTA 5 Voice Mod
-[21:39:58] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:39:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:39:59] [Sound Library Loader/INFO]: Sound engine started
-[21:40:01] [Client thread/INFO]: Connecting to localhost, 25565
-[21:40:05] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu §c15.0§r Metern.
-[21:40:12] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu §c50.0§r Metern.
-[21:41:30] [Client thread/INFO]: Connecting to localhost, 25565
-[21:41:32] [Client thread/INFO]: Connecting to localhost, 25565
-[21:41:35] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu §e15.0§r Metern.
-[21:41:35] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu §c50.0§r Metern.
-[21:41:37] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu §a5.0§r Metern.
-[21:41:38] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu §e15.0§r Metern.
-[21:41:39] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu §c50.0§r Metern.
-[21:41:40] [Client thread/INFO]: [CHAT] §e[Voice]§r Range geändert zu §a5.0§r Metern.
-O]: TheHanashi[/127.0.0.1:52821] logged in with entity id 241 at (-257.5069468429234, 94.0, 266.2920443415864)
-[21:41:33] [Server thread/INFO]: TheHanashi joined the game
-[21:41:51] [Server thread/INFO]: Stopping server
-[21:41:51] [Server thread/INFO]: Saving players
-[21:41:52] [Server thread/INFO]: Saving worlds
-[21:41:52] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[21:41:52] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[21:41:52] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[23:12:30] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[23:12:35] [Server thread/INFO]: Loading properties
+[23:12:35] [Server thread/INFO]: Default game type: SURVIVAL
+[23:12:35] [Server thread/INFO]: Generating keypair
+[23:12:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:12:36] [Server thread/INFO]: Preparing level "world"
+[23:12:36] [Server thread/INFO]: Preparing start region for level 0
+[23:12:37] [Server thread/INFO]: Done (0,841s)! For help, type "help" or "?"
+[23:13:17] [User Authenticator #1/INFO]: UUID of player TheHanashi is d9519f4d-2f63-4d19-9594-35a9dd0472fd
+[23:13:17] [Server thread/INFO]: TheHanashi[/127.0.0.1:50455] logged in with entity id 236 at (-254.9902131182888, 81.0, 261.69999998807907)
+[23:13:17] [Server thread/INFO]: TheHanashi joined the game
+[23:13:46] [Server thread/INFO]: Stopping server
+[23:13:46] [Server thread/INFO]: Saving players
+[23:13:46] [Server thread/INFO]: Saving worlds
+[23:13:46] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[23:13:46] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[23:13:46] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[09:23:32] [main/INFO]: Logging in with username & password

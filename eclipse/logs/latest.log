@@ -1,17 +1,215 @@
-[23:12:30] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[23:12:35] [Server thread/INFO]: Loading properties
-[23:12:35] [Server thread/INFO]: Default game type: SURVIVAL
-[23:12:35] [Server thread/INFO]: Generating keypair
-[23:12:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:12:36] [Server thread/INFO]: Preparing level "world"
-[23:12:36] [Server thread/INFO]: Preparing start region for level 0
-[23:12:37] [Server thread/INFO]: Done (0,841s)! For help, type "help" or "?"
-[23:13:17] [User Authenticator #1/INFO]: UUID of player TheHanashi is d9519f4d-2f63-4d19-9594-35a9dd0472fd
-[23:13:17] [Server thread/INFO]: TheHanashi[/127.0.0.1:50455] logged in with entity id 236 at (-254.9902131182888, 81.0, 261.69999998807907)
-[23:13:17] [Server thread/INFO]: TheHanashi joined the game
-[23:13:46] [Server thread/INFO]: Stopping server
-[23:13:46] [Server thread/INFO]: Saving players
-[23:13:46] [Server thread/INFO]: Saving worlds
-[23:13:46] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[23:13:46] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[23:13:46] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[14:45:57] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[14:46:02] [Server thread/INFO]: Loading properties
+[14:46:02] [Server thread/INFO]: Default game type: SURVIVAL
+[14:46:02] [Server thread/INFO]: Generating keypair
+[14:46:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:46:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:46:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:46:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:46:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:46:02] [Server thread/INFO]: Preparing level "world"
+[14:46:02] [Server thread/INFO]: Preparing start region for level 0
+[14:46:03] [Server thread/INFO]: Done (1,018s)! For help, type "help" or "?"
+[14:46:22] [Server thread/INFO]: Player205[/127.0.0.1:50409] logged in with entity id 297 at (-241.5, 86.0, 264.5)
+[14:46:22] [Server thread/INFO]: Player205 joined the game
+[14:46:28] [Server thread/INFO]: Player205 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:46:28] [Server thread/INFO]: Player205 left the game
+[14:46:30] [Server thread/INFO]: Stopping server
+[14:46:30] [Server thread/INFO]: Saving players
+[14:46:30] [Server thread/INFO]: Saving worlds
+[14:46:30] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[14:46:30] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[14:46:30] [Server thread/INFO]: Saving chunks for level 'world'/The End
+INFO]: Sound eng[14:46:15] [C[14:46:21] [Client thread/INFO]: Connectin[14:46:22] [Client thre[14:48:53] [Client thread/INFO]: Connecting to localhost, 25565
+[14:49:05] [Client thread/INFO]: [CHAT] Player151 joined the game
+[14:49:23] [Client thread/INFO]: [CHAT] Player151 left the game
+[14:49:24] [Client thread/INFO]: Stopping!
+read/INFO]: Created: 16x16 textures/blocks-atlas
+[14:46:24] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[14:46:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[14:46:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:46:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:46:25] [Sound Library Loader/INFO]: Sound engine started
+[14:49:04] [Client thread/INFO]: Connecting to localhost, 25565
+[14:49:23] [Client thread/INFO]: Stopping!
+oading properties
+[14:48:30] [Server thread/INFO]: Default game type: SURVIVAL
+[14:48:30] [Server thread/INFO]: Generating keypair
+[14:48:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:48:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:48:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:48:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:48:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:48:30] [Server thread/INFO]: Preparing level "world"
+[14:48:30] [Server thread/INFO]: Preparing start region for level 0
+[14:48:31] [Server thread/INFO]: Done (0,735s)! For help, type "help" or "?"
+[14:48:46] [Server thread/INFO]: The world's default game mode is now Creative Mode
+[14:48:53] [Server thread/INFO]: Player205[/127.0.0.1:50543] logged in with entity id 285 at (-241.5, 86.0, 264.5)
+[14:48:53] [Server thread/INFO]: Player205 joined the game
+[14:49:05] [Server thread/INFO]: Player151[/127.0.0.1:50616] logged in with entity id 374 at (-252.5, 74.0, 255.5)
+[14:49:05] [Server thread/INFO]: Player151 joined the game
+[14:49:23] [Server thread/INFO]: Player151 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:49:23] [Server thread/INFO]: Player151 left the game
+[14:49:25] [Server thread/INFO]: Player205 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:49:25] [Server thread/INFO]: Player205 left the game
+[14:49:48] [Server thread/INFO]: Player387[/127.0.0.1:50681] logged in with entity id 532 at (-245.5, 77.0, 260.5)
+[14:49:48] [Server thread/INFO]: Player387 joined the game
+[14:50:13] [Server thread/INFO]: Player452[/127.0.0.1:50733] logged in with entity id 679 at (-248.5, 71.0, 252.5)
+[14:50:13] [Server thread/INFO]: Player452 joined the game
+[14:51:37] [Server thread/INFO]: Player452 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:51:37] [Server thread/INFO]: Player452 left the game
+[14:51:39] [Server thread/INFO]: Player387 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:51:39] [Server thread/INFO]: Player387 left the game
+[14:51:55] [Server thread/INFO]: Set the time to 1000
+[14:52:00] [Server thread/INFO]: Player132[/127.0.0.1:50890] logged in with entity id 1199 at (-255.5, 75.0, 256.5)
+[14:52:00] [Server thread/INFO]: Player132 joined the game
+[14:52:24] [Server thread/INFO]: Player315[/127.0.0.1:50947] logged in with entity id 1403 at (-244.5, 79.0, 261.5)
+[14:52:24] [Server thread/INFO]: Player315 joined the game
+[14:55:34] [Server thread/INFO]: Player315 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:55:34] [Server thread/INFO]: Player315 left the game
+[14:55:36] [Server thread/INFO]: Player132 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:55:36] [Server thread/INFO]: Player132 left the game
+[14:57:12] [Server thread/INFO]: Player12[/127.0.0.1:51273] logged in with entity id 2668 at (-248.5, 72.0, 255.5)
+[14:57:12] [Server thread/INFO]: Player12 joined the game
+[14:57:32] [Server thread/INFO]: Player815[/127.0.0.1:51325] logged in with entity id 2876 at (-245.5, 72.0, 255.5)
+[14:57:32] [Server thread/INFO]: Player815 joined the game
+[15:17:45] [Server thread/INFO]: Player815 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:17:45] [Server thread/INFO]: Player815 left the game
+[15:17:47] [Server thread/INFO]: Player12 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:17:47] [Server thread/INFO]: Player12 left the game
+[15:18:01] [Server thread/INFO]: Player262[/127.0.0.1:53060] logged in with entity id 9919 at (-252.5, 71.0, 247.5)
+[15:18:01] [Server thread/INFO]: Player262 joined the game
+[15:18:21] [Server thread/INFO]: Player66[/127.0.0.1:53108] logged in with entity id 10033 at (-248.5, 71.0, 252.5)
+[15:18:21] [Server thread/INFO]: Player66 joined the game
+[15:21:00] [Server thread/INFO]: Player66 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:21:00] [Server thread/INFO]: Player66 left the game
+[15:21:01] [Server thread/INFO]: Player262 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:21:01] [Server thread/INFO]: Player262 left the game
+[15:21:42] [Server thread/INFO]: Player509[/127.0.0.1:53369] logged in with entity id 10890 at (-253.5, 73.0, 254.5)
+[15:21:42] [Server thread/INFO]: Player509 joined the game
+[15:22:02] [Server thread/INFO]: Player658[/127.0.0.1:53424] logged in with entity id 10998 at (-257.5, 78.0, 259.5)
+[15:22:02] [Server thread/INFO]: Player658 joined the game
+[15:22:10] [Server thread/INFO]: Player658 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:22:10] [Server thread/INFO]: Player658 left the game
+[15:22:29] [Server thread/INFO]: Player247[/127.0.0.1:53488] logged in with entity id 11090 at (-256.5, 87.0, 263.5)
+[15:22:29] [Server thread/INFO]: Player247 joined the game
+[15:25:32] [Server thread/INFO]: Player247 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:25:32] [Server thread/INFO]: Player247 left the game
+[15:25:47] [Server thread/INFO]: Player465[/127.0.0.1:53790] logged in with entity id 12408 at (-244.5, 76.0, 259.5)
+[15:25:47] [Server thread/INFO]: Player465 joined the game
+[15:27:37] [Server thread/INFO]: Player465 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:27:37] [Server thread/INFO]: Player465 left the game
+[15:27:52] [Server thread/INFO]: Player998[/127.0.0.1:53988] logged in with entity id 13096 at (-257.5, 75.0, 255.5)
+[15:27:52] [Server thread/INFO]: Player998 joined the game
+[15:32:04] [Server thread/INFO]: Player998 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:32:04] [Server thread/INFO]: Player998 left the game
+[15:32:23] [Server thread/INFO]: Player138[/127.0.0.1:54384] logged in with entity id 14454 at (-240.5, 72.0, 256.5)
+[15:32:23] [Server thread/INFO]: Player138 joined the game
+[15:34:58] [Server thread/INFO]: Player138 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:34:58] [Server thread/INFO]: Player138 left the game
+[15:35:13] [Server thread/INFO]: Player674[/127.0.0.1:54646] logged in with entity id 15287 at (-254.5, 84.0, 262.5)
+[15:35:13] [Server thread/INFO]: Player674 joined the game
+[15:35:54] [Server thread/INFO]: Player674 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:35:54] [Server thread/INFO]: Player674 left the game
+[15:36:09] [Server thread/INFO]: Player80[/127.0.0.1:54750] logged in with entity id 15439 at (-250.5, 90.0, 265.5)
+[15:36:09] [Server thread/INFO]: Player80 joined the game
+[15:38:39] [Server thread/INFO]: Player80 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:38:39] [Server thread/INFO]: Player80 left the game
+[15:38:54] [Server thread/INFO]: Player363[/127.0.0.1:55017] logged in with entity id 16444 at (-242.5, 80.0, 261.5)
+[15:38:54] [Server thread/INFO]: Player363 joined the game
+[15:40:23] [Server thread/INFO]: Player363 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:40:23] [Server thread/INFO]: Player363 left the game
+[15:40:39] [Server thread/INFO]: Player374[/127.0.0.1:55188] logged in with e[15:40:39] [Client thread/INFO]: [CHAT] Player374 joined the game
+INFO]: Player374 joined the game
+
+[15:22:25] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:22:25] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:22:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:22:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:22:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:22:26] [Sound Library Loader/INFO]: Sound engine started
+[15:22:28] [Client thread/INFO]: Connecting to localhost, 25565
+[15:25:32] [Client thread/INFO]: Stopping!
+[15:25:36] [main/INFO]: Setting user: Player465
+[15:25:37] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:25:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:25:44] [Sound Library Loader/INFO]: Sound engine started
+[15:25:44] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:25:44] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:25:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:25:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:25:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:25:45] [Sound Library Loader/INFO]: Sound engine started
+[15:25:47] [Client thread/INFO]: Connecting to localhost, 25565
+[15:27:36] [Client thread/INFO]: Stopping!
+[15:27:41] [main/INFO]: Setting user: Player998
+[15:27:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:27:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:27:49] [Sound Library Loader/INFO]: Sound engine started
+[15:27:49] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:27:49] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:27:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:27:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:27:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:27:50] [Sound Library Loader/INFO]: Sound engine started
+[15:27:52] [Client thread/INFO]: Connecting to localhost, 25565
+[15:32:03] [Client thread/INFO]: Stopping!
+[15:32:11] [main/INFO]: Setting user: Player138
+[15:32:12] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:32:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:32:19] [Sound Library Loader/INFO]: Sound engine started
+[15:32:19] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:32:19] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:32:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:32:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:32:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:32:20] [Sound Library Loader/INFO]: Sound engine started
+[15:32:22] [Client thread/INFO]: Connecting to localhost, 25565
+[15:34:58] [Client thread/INFO]: Stopping!
+[15:35:02] [main/INFO]: Setting user: Player674
+[15:35:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:35:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:35:09] [Sound Library Loader/INFO]: Sound engine started
+[15:35:09] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:35:09] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:35:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:35:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:35:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:35:11] [Sound Library Loader/INFO]: Sound engine started
+[15:35:13] [Client thread/INFO]: Connecting to localhost, 25565
+[15:35:53] [Client thread/INFO]: Stopping!
+[15:35:58] [main/INFO]: Setting user: Player80
+[15:35:59] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:36:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:36:06] [Sound Library Loader/INFO]: Sound engine started
+[15:36:06] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:36:06] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:36:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:36:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:36:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:36:07] [Sound Library Loader/INFO]: Sound engine started
+[15:36:09] [Client thread/INFO]: Connecting to localhost, 25565
+[15:38:38] [Client thread/INFO]: Stopping!
+[15:38:42] [main/INFO]: Setting user: Player363
+[15:38:43] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:38:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:38:50] [Sound Library Loader/INFO]: Sound engine started
+[15:38:50] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:38:50] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:38:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:38:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:38:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:38:51] [Sound Library Loader/INFO]: Sound engine started
+[15:38:54] [Client thread/INFO]: Connecting to localhost, 25565
+[15:40:23] [Client thread/INFO]: Stopping!
+[15:40:28] [main/INFO]: Setting user: Player374
+[15:40:29] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:40:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:40:36] [Sound Library Loader/INFO]: Sound engine started
+[15:40:36] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:40:36] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:40:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTA 5 Voice Mod
+[15:40:36] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:40:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:40:37] [Sound Library Loader/INFO]: Sound engine started
+[15:40:39] [Client thread/INFO]: Connecting to localhost, 25565

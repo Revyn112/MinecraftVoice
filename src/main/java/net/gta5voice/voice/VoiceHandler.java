@@ -38,7 +38,6 @@ public class VoiceHandler {
 					position.put("x", playerX);
 					position.put("y", playerY);
 					position.put("z", playerZ);
-					position.put("rotation", rotation);
 				}
 			}
 		} catch (Exception e) {
@@ -56,7 +55,7 @@ public class VoiceHandler {
 		double localX = position.get("x");
 		double localY = position.get("y");
 		double localZ = position.get("z");
-		double localPlayerRotation = position.get("rotation");
+		double localPlayerRotation = localPlayer.rotationYawHead;
 		double rotation = Math.PI / 180  * localPlayerRotation;
 		int localDimension = localPlayer.dimension;
 		
@@ -84,24 +83,24 @@ public class VoiceHandler {
 				double distance = Math.sqrt(Math.pow(localX - playerX, 2) + Math.pow(localY - playerY, 2) + Math.pow(localZ - playerZ, 2));
 				double volumeModifier = (distance * -5 / 10);
 				
-				if (volumeModifier > 0)
+				if (volumeModifier > 0.0)
 				{
-					volumeModifier = 0;
+					volumeModifier = 0.0;
 				}
 				if (dimension == localDimension && distance < range)
 				{
-					double subX = playerX - localX;
-					double subY = playerY - localY;
+					double subX = (playerX - localX) * -1;
+					double subZ = playerZ - localZ;
 					
-					double x = subX * Math.cos(rotation) - subY * Math.sin(rotation);
-					double y = subX * Math.sin(rotation) - subY * Math.cos(rotation);
+					double x = subX * Math.cos(rotation) - subZ * Math.sin(rotation);
+					double z = subX * Math.sin(rotation) + subZ * Math.cos(rotation);
 					
 					x = x * 10 / range;
-					y = y * 10 / range;
+					z = z * 10 / range;
 					
 					if (!isDead)
 					{
-						playerNames.add(name + "~" + (Math.round(x * 1000) / 1000) + "~" + (Math.round(y * 1000) / 1000) + "~0~" + (Math.round(volumeModifier * 1000) / 1000));
+						playerNames.add(name + "~" + (Math.round(x * 1000) / 1000) + "~" + (Math.round(z * 1000) / 1000) + "~0~" + (Math.round(volumeModifier * 1000) / 1000));
 					}
 				}
 			}

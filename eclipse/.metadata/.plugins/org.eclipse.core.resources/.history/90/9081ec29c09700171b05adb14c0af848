@@ -1,0 +1,16 @@
+[
+{
+  "modid": "voicemod",
+  "name": "GTA 5 Voice Mod",
+  "description": "TS3 Voice Plugin für Minecraft.",
+  "version": "1.0.4",
+  "mcversion": "${mcversion}",
+  "url": "https://gta5voice.net",
+  "updateUrl": "",
+  "authorList": ["Peter Lohse"],
+  "credits": "GTA 5 Voice",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

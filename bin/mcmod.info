@@ -3,7 +3,7 @@
   "modid": "voicemod",
   "name": "GTA 5 Voice Mod",
   "description": "TS3 Voice Plugin für Minecraft.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "mcversion": "${mcversion}",
   "url": "https://gta5voice.net",
   "updateUrl": "",
